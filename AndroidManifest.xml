@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionName="1.0" android:versionCode="1" package="com.testflip.simplestockquotes" xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <uses-permission android:name="android.permission.INTERNET"/> 
+    <uses-sdk android:targetSdkVersion="12" android:minSdkVersion="10"/>
+    <application android:name="com.testflip.simplestockquotes.MyApplication" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:allowBackup="false">
+        <activity android:name="com.testflip.simplestockquotes.StockSQLiteDatabaseActivity" android:label="@string/app_name">
+            <intent-filter> 
+                <action android:name="android.intent.action.MAIN"/> 
+                <category android:name="android.intent.category.LAUNCHER"/> 
+            </intent-filter> 
+        </activity> 
+        <activity android:name="com.testflip.simplestockquotes.SearchActivity" android:label="@string/title_activity_search"> </activity> 
+        <activity android:name="com.testflip.simplestockquotes.InfomationActivity" android:label="@string/title_activity_infomation"> </activity> 
+        <activity android:name="com.testflip.simplestockquotes.NewsActivity" android:label="@string/title_activity_news"> </activity> 
+        <activity android:name="com.testflip.simplestockquotes.ChartActivity" android:label="@string/title_activity_chart"> </activity> 
+    </application> 
+</manifest>
